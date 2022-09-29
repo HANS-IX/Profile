@@ -1,0 +1,36 @@
+h1{
+    font-variant: small-caps;
+    font-size: 3.5em;
+    
+}
+
+h2{
+    font-variant: small-caps;
+    font-size: 1.5em;
+
+
+    font-size: 40rem;
+    padding: 30rem 40rem ;
+    background-color: blue;
+}
+
+h3{
+    font-variant: small-caps;
+    font-size: 1em;
+}
+
+h4{
+    font-variant: small-caps;
+    background: url("image/v_roth.jpeg");
+}
+
+Body{
+    background-image: url("image/dada.jpeg");
+    background-size: 100%;
+    text-align: center;
+}
+
+p{
+    font-family: Baskerville;
+    fallback: "Palatino Linotype"Palatino,"Century Schoolbook L", 'Times New Roman', Times, serif;
+}
