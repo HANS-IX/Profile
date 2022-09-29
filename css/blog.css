@@ -1,0 +1,104 @@
+.nav_menu {
+  overflow:hidden;
+  background-color: #333;
+}
+.nav_menu  a{
+    float: left;
+    display: block;
+    color:white;
+    text-align:center;
+    padding: 14px 16px;
+      text-decoration:none;
+  }
+  .nav_menu a:hover{
+    background-color: white;
+    color:green;
+  }
+body
+{
+  background: url(https://wallpaperaccess.com/full/253322.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+}
+table
+{
+border: 2px solid #080101;
+border-collapse: collapse;
+background: linear-gradient(
+  45deg,
+  rgba(197, 19, 19, 0.26) 20%,
+  rgba(245, 255, 246, 0.1) 100%
+);
+}
+caption
+{
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgb(173, 255, 148);
+}
+
+th
+{
+  background: linear-gradient(45deg, #070807c2 0%, #070807 100%);
+  border: 2px solid #080101;
+}
+tr{
+  background: linear-gradient(45deg, #0c0d4150 0%, #290fbb44 100%);
+    border: 1px solid #080101;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(173, 255, 148);
+}
+th, td 
+{ 
+letter-spacing: 0.5px;
+text-align:center;
+border-collapse: collapse;
+
+} 
+.Title
+{
+ width: 7%;
+}
+.Author
+{
+ width: 3%;
+}
+.Synopsis
+{
+ width: 11%;
+}
+.reviews {
+  text-shadow: 2px 2px 5px rgb(14, 15, 5);
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+p.bgtexts {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  background: none;
+  border: none;
+}
+
+.bgtexts{
+  max-width: 500px;
+  margin: 10px 10px auto auto;
+  padding: 20px 5px 5px 5px;
+  display: inline-block;
+  background:linear-gradient(45deg, #0c0d4150 0%, #1d0d7544 100%);
+  box-sizing: border-box;
+  border-radius: 20px 20px;
+  border: 2px solid #080101;
+
+}
+
+.cover{
+  width: auto;
+  height: 300px;
+}

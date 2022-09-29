@@ -1,0 +1,55 @@
+.nav_menu {
+    overflow:hidden;
+    background-color: #333;
+    
+  }
+  .nav_menu  a{
+      float: left;
+      display: block;
+      color:white;
+      text-align:center;
+      padding: 14px 16px;
+        text-decoration:none;
+        
+    }
+    .nav_menu a:hover{
+      background-color: white;
+      color:green;
+    }
+
+body{
+  background: url(https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/01/best-fantasy-games-2022.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: 'MedievalSharp', cursive;
+}
+
+#blur{
+  margin: 10px 420px;
+  background-color: rgba(14, 29, 13, 0.6);
+  color: wheat;
+  border-radius: 20px 20px;
+  font-size: 40px;
+  box-shadow: 0px 0px 50px rgb(224, 215, 110);
+}
+
+img{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  max-width: 70%;
+  max-height: 70%;
+}
+
+#description{
+  margin: 120px 500px;
+  padding: 10px 10px 70px 10px;
+  display: inline-block;
+  color: wheat;
+  background-color: rgba(14, 29, 13, 0.6);
+  box-sizing: border-box;
+  font-size: 22px;
+  border-radius: 20px 20px;
+  box-shadow: 0px 0px 50px rgb(224, 215, 110);
+}

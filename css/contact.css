@@ -1,0 +1,83 @@
+body{
+    background: url(https://wallpapercave.com/wp/wp9389236.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+.nav_menu {
+  overflow:hidden;
+  background-color: #333;
+  
+}
+.nav_menu  a{
+    float: left;
+    display: block;
+    color:white;
+    text-align:center;
+    padding: 14px 16px;
+      text-decoration:none;
+  }
+  .nav_menu a:hover{
+    background-color: white;
+    color:green;
+  }
+
+form{
+	margin: 0 auto;
+	width: 500px;
+	padding-top: 40px;
+	color: white;
+	position: relative;
+}
+
+label, input, textarea{
+	display: block;	
+}
+
+input, textarea{
+    width: 500px;	
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	padding: 10px;
+}
+
+label{
+	font-size: 1.5em;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+input[type="submit"]:hover{
+	background-color: #927bb1;
+}
+
+input[type="submit"]{
+	background-color:rgb(54, 170, 185);
+	color: white;
+	height: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+h1{
+	font-weight: normal;
+	font-size: 4em;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 500px;
+	color: rgb(54, 170, 185);
+	text-align: center;
+
+}
+
+img{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  max-width: 60%;
+  max-height: 60%;
+  
+}
